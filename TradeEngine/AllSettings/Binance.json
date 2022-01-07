@@ -1,0 +1,9 @@
+{
+  "PublicKey": "FnnqJ3ZKfUKUIiiOGvXTdzNLLZRezSg3UIn3IhWhpeYn9sl4hYy8WoSCZVcjC3xW",
+  "PrivateKey": "T9GoDXt85q5CYkEdTgJ0E70VI4vhxu2i7nYqo1RAUGYuiu9SzWlZTHzgNh5SAKt3",
+  "Commissions": {
+    "HighCommissionCurrency": "TRY",
+    "CryptoCryptoTaker": 0.0009,
+    "CryptoTryTaker": 0.0018
+  }
+}

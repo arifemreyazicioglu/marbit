@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.38" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.114.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SC_BtcTurk\SC_BtcTurk.csproj" />
+    <ProjectReference Include="..\TrBinance\TrBinance.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="AllSettings\Engine.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="AllSettings\BtcTurk.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Dbs\DevelopmentLog.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dbs\" />
+  </ItemGroup>
+
+</Project>

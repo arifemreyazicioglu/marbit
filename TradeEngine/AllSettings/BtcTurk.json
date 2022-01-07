@@ -1,0 +1,9 @@
+{
+  "PublicKey": "e6397a00-70cc-4e86-adee-7610d31aa092",
+  "PrivateKey": "CiltemxXFm1bPhQnGnFGjZYmoSs81cW2",
+  "Commissions": {
+    "HighCommissionCurrency": "TRY",
+    "CryptoCryptoTaker": 0.0009,
+    "CryptoTryTaker": 0.0018
+  }
+}
